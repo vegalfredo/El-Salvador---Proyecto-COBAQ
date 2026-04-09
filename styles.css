@@ -1052,4 +1052,6 @@ body {
   .footer-bottom { flex-direction: column; gap: 16px; }
   .age-bar-item { flex-wrap: wrap; }
   .age-track { min-width: 100%; }
+  .integrantes-grid { grid-template-columns: repeat(2, 1fr); }
+  .integrante-avatar { width: 80px; height: 80px; }
 }
