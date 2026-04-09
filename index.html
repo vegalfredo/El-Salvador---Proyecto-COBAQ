@@ -15,26 +15,8 @@
   <nav id="navbar">
     <div class="nav-inner">
       <div class="nav-logo">
-        <!-- COBAQ Logo SVG -->
         <a href="#inicio" class="cobaq-logo-link">
-          <svg class="cobaq-svg" viewBox="0 0 220 56" xmlns="http://www.w3.org/2000/svg" aria-label="COBAQ Logo">
-            <defs>
-              <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" style="stop-color:#1a8a50;stop-opacity:1" />
-                <stop offset="100%" style="stop-color:#0e6b3c;stop-opacity:1" />
-              </linearGradient>
-            </defs>
-            <!-- Escudo / círculo institucional -->
-            <circle cx="28" cy="28" r="26" fill="url(#logoGrad)" />
-            <circle cx="28" cy="28" r="22" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.6"/>
-            <!-- Águila estilizada -->
-            <path d="M28 10 C22 14 16 20 18 26 C14 24 12 28 14 32 C18 30 22 32 24 36 C25 30 22 24 28 20 C34 24 31 30 32 36 C34 32 38 30 42 32 C44 28 42 24 38 26 C40 20 34 14 28 10Z" fill="#ffffff" opacity="0.9"/>
-            <path d="M28 18 C26 22 25 26 26 30 L28 28 L30 30 C31 26 30 22 28 18Z" fill="#1a8a50"/>
-            <!-- Texto COBAQ -->
-            <text x="62" y="22" font-family="'Cinzel', serif" font-weight="700" font-size="17" fill="#1a8a50" letter-spacing="2">COBAQ</text>
-            <text x="62" y="38" font-family="'Nunito Sans', sans-serif" font-weight="400" font-size="9" fill="#7aab8a" letter-spacing="1">COLEGIO DE BACHILLERES</text>
-            <text x="62" y="50" font-family="'Nunito Sans', sans-serif" font-weight="400" font-size="9" fill="#7aab8a" letter-spacing="1">DEL ESTADO DE QUERÉTARO</text>
-          </svg>
+          <img src="img/logo_cobaq.png" alt="COBAQ Logo" class="cobaq-logo-img" />
         </a>
       </div>
 
@@ -123,10 +105,16 @@
         <circle cx="60" cy="55" r="2" fill="#1a8a50" opacity="0.7"/>
         <circle cx="40" cy="80" r="1.5" fill="#f59e0b" opacity="0.5"/>
         <!-- Flag El Salvador colors -->
-        <rect x="55" y="65" width="30" height="20" fill="#0f4c9e" rx="1"/>
-        <rect x="55" y="70" width="30" height="10" fill="#ffffff"/>
-        <line x1="55" y1="65" x2="55" y2="90" stroke="#6b4226" stroke-width="2"/>
-        <circle cx="70" cy="75" r="3" fill="#e8d5b0" opacity="0.7"/>
+        <line x1="28" y1="10" x2="28" y2="130" stroke="#6b4226" stroke-width="4"/>
+        <rect x="28" y="10" width="110" height="75" fill="#0f4c9e" rx="3"/>
+        <rect x="28" y="35" width="110" height="35" fill="#ffffff"/>
+        <rect x="28" y="70" width="110" height="15" fill="#0f4c9e" rx="0"/>
+        <!-- Escudo simplificado: círculo dorado + triángulo -->
+        <circle cx="83" cy="52" r="16" fill="none" stroke="#f59e0b" stroke-width="2"/>
+        <polygon points="83,39 95,62 71,62" fill="#f59e0b" opacity="0.85"/>
+        <!-- montañitas -->
+        <polygon points="74,58 80,50 86,58" fill="#1a8a50" opacity="0.9"/>
+        <polygon points="80,58 87,48 94,58" fill="#1a8a50" opacity="0.9"/>
       </svg>
     </div>
     <div class="hero-scroll-hint">
@@ -630,21 +618,7 @@
   <footer class="footer">
     <div class="footer-inner">
       <div class="footer-brand">
-        <svg class="cobaq-svg-footer" viewBox="0 0 220 56" xmlns="http://www.w3.org/2000/svg">
-          <defs>
-            <linearGradient id="logoGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
-              <stop offset="0%" style="stop-color:#1a8a50;stop-opacity:1" />
-              <stop offset="100%" style="stop-color:#0e6b3c;stop-opacity:1" />
-            </linearGradient>
-          </defs>
-          <circle cx="28" cy="28" r="26" fill="url(#logoGrad2)" />
-          <circle cx="28" cy="28" r="22" fill="none" stroke="#ffffff" stroke-width="1.5" opacity="0.5"/>
-          <path d="M28 10 C22 14 16 20 18 26 C14 24 12 28 14 32 C18 30 22 32 24 36 C25 30 22 24 28 20 C34 24 31 30 32 36 C34 32 38 30 42 32 C44 28 42 24 38 26 C40 20 34 14 28 10Z" fill="#ffffff" opacity="0.85"/>
-          <path d="M28 18 C26 22 25 26 26 30 L28 28 L30 30 C31 26 30 22 28 18Z" fill="#1a8a50"/>
-          <text x="62" y="22" font-family="'Cinzel', serif" font-weight="700" font-size="17" fill="#ffffff" letter-spacing="2">COBAQ</text>
-          <text x="62" y="38" font-family="'Nunito Sans', sans-serif" font-weight="400" font-size="9" fill="#9fcfb5" letter-spacing="1">COLEGIO DE BACHILLERES</text>
-          <text x="62" y="50" font-family="'Nunito Sans', sans-serif" font-weight="400" font-size="9" fill="#9fcfb5" letter-spacing="1">DEL ESTADO DE QUERÉTARO</text>
-        </svg>
+        <img src="img/logo_cobaq.png" alt="COBAQ Logo" class="cobaq-logo-img-footer" />
         <p class="footer-slogan">La migración no es un crimen,<br>es una búsqueda del futuro.</p>
       </div>
 
