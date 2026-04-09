@@ -884,6 +884,110 @@ body {
 }
 .ayudar-link.no-link { cursor: default; color: var(--gold); border-color: rgba(245,158,11,0.3); }
 
+/* ── MIGRACIÓN BANDERAS ── */
+.migracion-banderas {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 32px 28px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.migracion-titulo {
+  font-size: 0.85rem;
+  color: var(--text-sec);
+  text-align: center;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.migracion-origen { display: flex; justify-content: center; }
+
+.migracion-flecha-central {
+  font-size: 2rem;
+  color: var(--green-lt);
+  line-height: 1;
+}
+
+.migracion-destinos {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bandera-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  background: var(--bg-dark);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 16px 20px;
+  min-width: 110px;
+  transition: var(--transition);
+}
+.bandera-card:hover { transform: translateY(-4px); border-color: rgba(26,138,80,0.4); }
+.bandera-card.principal { border-color: rgba(245,158,11,0.5); }
+
+.bandera {
+  width: 72px;
+  height: 48px;
+  border-radius: 6px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+/* El Salvador */
+.sv .sv-azul { flex: 1; background: #0f4c9e; }
+.sv .sv-blanco { flex: 1; background: #ffffff; }
+
+/* EE.UU. */
+.us { flex-direction: column; }
+.us-top { display: flex; flex: 1; }
+.us-canton { width: 30px; background: #002868; }
+.us-stripes-right { flex: 1; background: repeating-linear-gradient(to bottom, #BF0A30 0px, #BF0A30 4px, #ffffff 4px, #ffffff 8px); }
+.us-stripes-bottom { flex: 1; background: repeating-linear-gradient(to bottom, #BF0A30 0px, #BF0A30 4px, #ffffff 4px, #ffffff 8px); }
+
+/* México */
+.mx { flex-direction: row; }
+.mx-verde { flex: 1; background: #006847; }
+.mx-blanco { flex: 1; background: #ffffff; }
+.mx-rojo { flex: 1; background: #ce1126; }
+
+/* España */
+.es { flex-direction: column; }
+.es-rojo { flex: 1; background: #c60b1e; }
+.es-amarillo { flex: 2; background: #ffc400; }
+
+.bandera-nombre {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-main);
+  font-family: var(--font-display);
+}
+
+.bandera-pct {
+  font-size: 1.4rem;
+  font-weight: 900;
+  color: var(--green-lt);
+  line-height: 1;
+}
+.bandera-card.principal .bandera-pct { color: var(--gold); }
+
+.bandera-label {
+  font-size: 0.72rem;
+  color: var(--text-sec);
+  text-align: center;
+}
+.origen-label { color: var(--green-lt); }
+
 /* ── INTEGRANTES ── */
 .section-integrantes {
   background: var(--bg-dark);
