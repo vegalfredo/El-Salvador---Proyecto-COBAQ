@@ -915,8 +915,8 @@ body {
 }
 
 .integrante-avatar {
-  width: 64px;
-  height: 64px;
+  width: 110px;
+  height: 110px;
   border-radius: 50%;
   background: linear-gradient(135deg, #1a8a50, #0e6b3c);
   display: flex;
@@ -927,6 +927,13 @@ body {
   font-size: 1.1rem;
   color: #fff;
   letter-spacing: 1px;
+  overflow: hidden;
+}
+.integrante-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
 }
 
 .integrante-nombre {
